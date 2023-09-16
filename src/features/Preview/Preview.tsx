@@ -1,12 +1,13 @@
-import React from "react";
+
 import { NavLink } from "react-router-dom";
 import { PATH } from "../../Routes/paths.routes";
-import { RootState } from "../../../data/store/index";
 import { ReactComponent as Arrow } from "../../assets/icons/arrow.svg";
 import { ReactComponent as GitHub } from "../../assets/icons/github.svg";
 import { ReactComponent as Youtube } from "../../assets/icons/youtube.svg";
 import { ReactComponent as LinkedIn } from "../../assets/icons/linkdn.svg";
 import { useSelector } from "react-redux";
+import * as React from "react";
+import { RootState } from "../../data/store/index";
 export default function Preview() {
   const { user } = useSelector<RootState, any>((state) => state.user);
   return (
