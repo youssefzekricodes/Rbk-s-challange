@@ -1,4 +1,3 @@
-
 import { NavLink } from "react-router-dom";
 import { PATH } from "../../Routes/paths.routes";
 import { ReactComponent as Arrow } from "../../assets/icons/arrow.svg";
